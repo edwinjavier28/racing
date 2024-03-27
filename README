@@ -1,0 +1,9 @@
+La "divergencia" en Git se refiere a una situación en la que dos ramas diferentes tienen cambios que no están presentes en la otra rama. Esto puede ocurrir cuando se realizan modificaciones en una rama sin incorporarlas en otra rama, lo que hace que las historias de ambas ramas diverjan.
+
+Por ejemplo, imagina que tienes una rama principal (main) y una rama de desarrollo (develop). Si realizas cambios en la rama develop pero no los fusionas en la rama main, entonces las dos ramas divergen. En este punto, main no tiene los cambios que están en develop, y develop no tiene los cambios que están en main.
+
+La divergencia es común durante el desarrollo colaborativo de software, especialmente cuando varios desarrolladores trabajan en diferentes características o solucionan problemas en paralelo. Si no se gestionan adecuadamente, las ramas divergentes pueden provocar conflictos al intentar fusionarlas.
+
+Para resolver la divergencia, generalmente se fusionan los cambios de una rama en la otra. Esto puede hacerse mediante un merge o un rebase, dependiendo de la preferencia y la situación específica del proyecto. Después de la fusión, las dos ramas tendrán los mismos cambios y ya no estarán divergentes.
+
+Es importante gestionar las divergencias de manera adecuada para mantener una historia de desarrollo limpia y evitar conflictos innecesarios durante el proceso de integración de cambios.
